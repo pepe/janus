@@ -145,6 +145,7 @@ vim_plugin_task "markdown",         "git://github.com/tpope/vim-markdown.git"
 vim_plugin_task "align",            "git://github.com/tsaleh/vim-align.git"
 vim_plugin_task "unimpaired",       "git://github.com/tpope/vim-unimpaired.git"
 vim_plugin_task "sessions",         "http://www.vim.org/scripts/download_script.php?src_id=13722"
+vim_plugin_task "sinatra",          "https://github.com/hallison/vim-ruby-sinatra"
 
 vim_plugin_task "command_t",        "git://github.com/wincent/Command-T.git" do
   sh "find ruby -name '.gitignore' | xargs rm"
